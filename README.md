@@ -14,7 +14,7 @@ File Description
 Each .tsv file contains 3 headers:
 - **ID.A**: The Ensembl Gene ID of the first interactor.
 - **ID.B**: The Ensembl Gene ID of the second interactor.
-- **WEIGHT**: The edge weights of the cell type-specific interactome, computed using the **score.edges** function, percentile-normalised relative gene expression scores from the FANTOM5 Project and protein-protein interactions from the STRING database.
+- **WEIGHT**: The edge weight of the interaction in the cell type-specific interactome. Computed using the **score.edges** function, percentile-normalised relative gene expression scores from the FANTOM5 Project and protein-protein interactions from the STRING database.
 
 
 References
