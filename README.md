@@ -20,4 +20,8 @@ Each .tsv file contains 3 headers:
 References
 ===========
 
-Paper under preparation.
+Our paper under preparation.
+
+Forrest ARR et al. (2014) A promoter-level mammalian expression atlas. Nature 507(7493):462-470.
+
+Franceschini A et al. (2013) STRING v9.1: protein-protein interaction networks, with increased coverage and integration. Nucleic Acids Res 41:D808-D815.
