@@ -1,9 +1,7 @@
 Cell Type Interactomes
 ===
 
-Collection of 73 cell type-specific interactomes created through the integration of protein-protein interaction data (STRING) and gene-expression data (FANTOM5 Project). These interactomes were created using the score.edges function from the DiseaseCellTypes R-package.
-
-Details of the method and data used to create these interactomes is given in the referenced paper. These interactomes can be recreated using the functions and data provided in the [DiseaseCellTypes R-package](http://alexjcornish.github.io/DiseaseCellTypes "DiseaseCellTypes").
+Collection of 73 cell type-specific interactomes created through the integration of protein-protein interaction data (STRING) and gene-expression data (FANTOM5 Project). Details of the method and data used to create these interactomes is given in the referenced paper. These interactomes can be recreated using the functions and data provided in the [DiseaseCellTypes R-package](http://alexjcornish.github.io/DiseaseCellTypes "DiseaseCellTypes").
 
 
 File Description
