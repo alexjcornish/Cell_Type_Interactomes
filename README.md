@@ -1,7 +1,7 @@
 Cell Type-Specific Interactomes
 ==========
 
-Collection of 73 cell type-specific interactomes created through the integration of protein-protein interaction data (STRING) and gene-expression data (FANTOM5 Project). Details of the method and data used to create the interactomes are given in the referenced paper. The interactomes can be recreated using the functions and data provided in the [DiseaseCellTypes R-package][1].
+Collection of 73 cell type-specific interactomes created through the integration of protein-protein interaction data (STRING) and gene-expression data (FANTOM5 Project). Details of the method and data used to create the interactomes are given in Cornish et al. (2015). The interactomes can be recreated using the functions and data provided in the [DiseaseCellTypes R-package][1].
 
 
 File Description
