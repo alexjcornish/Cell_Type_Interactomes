@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="Cell type interactomes : Created through the integration of protein-protein interaction and gene-expression data">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Cell type interactomes</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/alexjcornish/Cell_Type_Interactomes">View on GitHub</a>
+
+          <h1 id="project_title">Cell type interactomes</h1>
+          <h2 id="project_tagline">Created through the integration of protein-protein interaction and gene-expression data</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/alexjcornish/Cell_Type_Interactomes/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/alexjcornish/Cell_Type_Interactomes/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <p>Collection of 73 cell type-specific interactomes created through the integration of protein-protein interaction data (STRING) and gene-expression data (FANTOM5 Project). Details of the method and data used to create the interactomes are given in Cornish et al. (2015). The interactomes can be recreated using the functions and data provided in the <a href="http://alexjcornish.github.io/DiseaseCellTypes">DiseaseCellTypes R-package</a>.</p>
+
+<h2>
+<a id="file-description" class="anchor" href="#file-description" aria-hidden="true"><span class="octicon octicon-link"></span></a>File Description</h2>
+
+<p>Each .tsv file contains 3 columns:</p>
+
+<ul>
+<li>
+<strong>ID.A</strong>: The Ensembl Gene ID of the first interactor.</li>
+<li>
+<strong>ID.B</strong>: The Ensembl Gene ID of the second interactor.</li>
+<li>
+<strong>WEIGHT</strong>: The edge weight of the interaction in the cell type-specific interactome. Computed using the score.edges function, percentile-normalised relative gene expression scores from the FANTOM5 Project and protein-protein interactions from the STRING database.</li>
+</ul>
+
+<h2>
+<a id="references" class="anchor" href="#references" aria-hidden="true"><span class="octicon octicon-link"></span></a>References</h2>
+
+<p>Cornish AJ, Filippis I, David A and Sternberg MJE (2015) Exploring the cellular basis of human disease through a large-scale mapping of deleterious genes to cell types. (Under Revision)</p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Cell type interactomes maintained by <a href="https://github.com/alexjcornish">alexjcornish</a></p>
+        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+              <script type="text/javascript">
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+          </script>
+          <script type="text/javascript">
+            try {
+              var pageTracker = _gat._getTracker("UA-57512699-2");
+            pageTracker._trackPageview();
+            } catch(err) {}
+          </script>
+
+
+  </body>
+</html>
