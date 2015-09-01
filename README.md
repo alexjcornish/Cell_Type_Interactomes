@@ -16,7 +16,7 @@ Each .tsv file contains 3 columns:
 References
 ----------
 
-[Cornish AJ, Filippis I, David A and Sternberg MJE (2015) Exploring the cellular basis of human disease through a large-scale mapping of deleterious genes to cell types. Genome Medicine, 7:95][2]
+[Cornish A.J., Filippis I., David A. and Sternberg M.J.E. (2015) Exploring the cellular basis of human disease through a large-scale mapping of deleterious genes to cell types. Genome Medicine, 7:95][2]
 
 [1]: http://alexjcornish.github.io/DiseaseCellTypes
 [2]: http://genomemedicine.com/content/7/1/95
